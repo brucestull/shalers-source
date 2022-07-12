@@ -1,6 +1,10 @@
 # MDN Local Library Tutorial
 * [Django Web Framework (Python)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
 
+## Run Locally:
+* `python manage.py runserver`
+* * http://localhost:8000/
+
 ## Links to this project's pages:
 * shalers-source [Production Deployment](https://shalers-source.herokuapp.com/)
 * shalers-source [Project Board](https://github.com/brucestull/shalers-source/projects/1)
