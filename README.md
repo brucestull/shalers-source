@@ -3,7 +3,8 @@
 
 ## Run Locally:
 * `python manage.py runserver`
-* * http://localhost:8000/
+* http://localhost:8000/
+* http://localhost:8000/catalog/
 
 ## Links to this project's pages:
 * shalers-source [Production Deployment](https://shalers-source.herokuapp.com/)
@@ -12,4 +13,4 @@
 * shalers-source - Heroku Git Repository: https://git.heroku.com/shalers-source.git
 
 ## Process:
-1. [Django Tutorial Part 2: Creating a skeleton website](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website)
+1. [Django Tutorial Part 2: Creating a skeleton website](notes/02_creating_a_skeleton_website.md)
