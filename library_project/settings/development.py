@@ -1,4 +1,5 @@
 from library_project.settings.common import *
+import os
 
 
 DEBUG = True
@@ -19,7 +20,7 @@ DATABASES = {
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # Create your own `SECRET_KEY` here for use in Development. Create a specific one for production only and use it in production only.
-SECRET_KEY = "3)hq&x!awji5*(iw3ovzji^92as-nw57(m@7h#x^-c2wzu%qam"
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # To create a new `SECRET_KEY`:
 """
